@@ -1,11 +1,11 @@
 module github.com/khulnasoft-lab/vessel
 
-go 1.23
+go 1.23.0
 
 toolchain go1.24.2
 
 require (
-	github.com/containerd/containerd v1.7.27
+	github.com/containerd/containerd v1.7.28
 	github.com/docker/docker v26.1.5+incompatible
 	github.com/joho/godotenv v1.5.1
 	github.com/pkg/errors v0.9.1
@@ -58,10 +58,10 @@ require (
 	go.opentelemetry.io/otel v1.34.0 // indirect
 	go.opentelemetry.io/otel/metric v1.34.0 // indirect
 	go.opentelemetry.io/otel/trace v1.34.0 // indirect
-	golang.org/x/net v0.35.0 // indirect
-	golang.org/x/sync v0.11.0 // indirect
-	golang.org/x/sys v0.30.0 // indirect
-	golang.org/x/text v0.22.0 // indirect
+	golang.org/x/net v0.42.0 // indirect
+	golang.org/x/sync v0.16.0 // indirect
+	golang.org/x/sys v0.34.0 // indirect
+	golang.org/x/text v0.27.0 // indirect
 	google.golang.org/genproto v0.0.0-20240429193739-8cf5692501f6 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250218202821-56aae31c358a // indirect
 	google.golang.org/protobuf v1.36.5 // indirect
