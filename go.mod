@@ -2,7 +2,7 @@ module github.com/khulnasoft-lab/vessel
 
 go 1.23
 
-toolchain go1.24.2
+toolchain go1.25.1
 
 require (
 	github.com/containerd/containerd v1.7.27
